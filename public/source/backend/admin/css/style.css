@@ -1,0 +1,83 @@
+.datepicker1{
+	height: 17px;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	padding: 4px;
+}
+.webStatsLink{
+	width:120px !important;
+}
+#tab2{
+	display: none;
+}
+.input_price{
+	width:100px !important;
+}
+.img-discount, .img-price{
+	margin-bottom:-8px !important;  
+}
+.action{
+	display: none !important;
+}
+
+#head-right-img{
+	margin-top: 7px;
+}
+.del{
+	color: white !important;
+	margin-left: -10px !important;
+}
+.dataTables_info{
+	margin-left: 10px !important;
+}
+.dataTables_filter{
+	margin: 10px !important;
+}
+
+.dataTables_filter input{
+	height: 26px !important;
+	padding: 3px !important;
+	border-radius: 1px !important;
+}
+
+.dataTables_length{
+	margin: 10px !important;
+}
+.eror{
+	margin: 15px;
+}
+.note{
+	color: red;
+}
+.tk{
+	margin-left: 20px;
+}
+#search-table{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.side-bar{
+	padding-top:30px !important;
+}
+li a.new{
+	color: yellow !important;
+}
+.userDropdown{
+	display: none;
+}
+li.all{
+	text-align: center;
+	padding: 3px;
+}
+span.reject{
+	color: red;
+}
+.loginWrapper .widget{
+	height: 259px !important;
+}
+.loginWrapper{
+	margin: -123px 0 0 -170px;
+}
+.checkbox{
+	margin-bottom: 4px;
+}

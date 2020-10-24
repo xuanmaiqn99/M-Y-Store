@@ -1,0 +1,17 @@
+{
+  "name": "library",
+  "version": "1.0.1",
+  "authors": [
+    "quanghv96 <quanghavan96@gmail.com>"
+  ],
+  "description": "Framgia standard demo Bower",
+  "main": "/",
+  "keywords": [
+    "fonticons"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/quanghv96/library.git",
+  "ignore": [
+    "README.md"
+  ]
+}

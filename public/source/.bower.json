@@ -1,0 +1,26 @@
+{
+  "name": "library",
+  "authors": [
+    "quanghv96 <quanghavan96@gmail.com>"
+  ],
+  "description": "Framgia standard demo Bower",
+  "main": "/",
+  "keywords": [
+    "fonticons"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/quanghv96/library.git",
+  "ignore": [
+    "README.md"
+  ],
+  "_release": "0d8870d587",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0d8870d5875ecb963db21e9825ac2de8039922d0"
+  },
+  "_source": "https://github.com/quanghv96/library.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/quanghv96/library.git",
+  "_direct": true
+}
