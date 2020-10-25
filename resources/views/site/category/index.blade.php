@@ -38,7 +38,7 @@
                                             <div class="product-shop">
                                                 <h2 class="product-name"><a href="{{ route('product.view', ['id' => $row->id]) }}" title="Product tilte is here">{{ $row->name }}</a></h2>
                                                 <div class="rating">
-                                                    @for($i = 1;$i < 6;$i++)
+                                                    @for($i = 1; $i < 6; $i++)
                                                         @if($i > round($row->averageRating))
                                                             <i class="fa fa-star-o"></i>
                                                         @else

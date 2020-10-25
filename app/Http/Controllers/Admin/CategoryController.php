@@ -142,7 +142,7 @@ class CategoryController extends Controller
         	$id = $request->id;
         	$category = Category::findOrFail($id);
     		$count = Category::getSubCategory($id)->count();
-    		if ($count > 0) {
+    		if ($count == 0) {
     			return response()->json(1); 
     		}
     		if (count($category->products) > 0) {

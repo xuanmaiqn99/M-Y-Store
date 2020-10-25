@@ -213,7 +213,7 @@
                 </div>
                 <!-- Sidebar -->
                 <div class="top-sidebar col-left sidebar col-sm-4 col-xs-12 col-sm-pull-8 col-md-3 col-md-pull-9">
-                    <div class="sidebar-banner">
+                <div class="sidebar-banner">
                     {!! Form::open(['route' => 'site.home.search_mul', 'method' => 'get']) !!}
                         <div class="form-group div-input">
                             <label>{{ __('Danh mục') }}</label>

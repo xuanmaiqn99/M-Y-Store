@@ -14,15 +14,15 @@ class ImagesTableSeeder extends Seeder
         $listImage = array(
         	[
         		'product_id' => 1,
-        		// 'image_link' => 'Aoden.jpg'
+        		'image_link' => 'anh1.jpg'
         	],
         	[
         		'product_id' => 1,
-        		// 'image_link' => 'footwear.jpg'
+        		'image_link' => 'anh2.jpg'
         	],
         	[
         		'product_id' => 1,
-        		// 'image_link' => 'team-img04.jpg'
+        		'image_link' => 'anh3.jpg'
         	],
         	[
         		'product_id' => 2,

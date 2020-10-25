@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use willvincent\Rateable\Rateable;
 use Nicolaslopezj\Searchable\SearchableTrait;
-use DB;
+use Illuminate\Support\Facades\DB;
 
 class Product extends Model
 {
@@ -135,7 +135,7 @@ class Product extends Model
         $list = array();
         foreach ($category as $key => $value) {
             if ($value->parent_id == 0 && count($value->subCategory) > 0){
-                foreach ($category as $key1 => $value1) {
+                foreach ($category as $key => $value1) {
                     if ($value1->parent_id == $value->id) {
                         $list[$value->name][$value1->id] = $value1->name;
                     }
